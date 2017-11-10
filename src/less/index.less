@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+
+.fl{
+	float: left;
+	&：after{
+		content:"";
+		display: block;
+		clear: both;
+	}
+}
+.fr{
+	float: right;
+	&：after{
+		content:"";
+		display: block;
+		clear: both;
+	}
+}
+@import "start.less";
+@import "sort.less";
+@import "mycar.less";
+@import "help.less";
+@import "myqicai.less";
